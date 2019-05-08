@@ -1,6 +1,7 @@
 body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
   /* this is using the font from Google that we imported, as well as a fall-back font */
 }
 
@@ -8,9 +9,47 @@ header, section, .portfolio-project {
   margin-bottom: 50px;
 }
 
-/* #google-pic {
-  background: url("https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg") cover no-repeat;
+.section-header {
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+
+#portfolio-section {
+  background: #fafafa;
+  padding: 50px;
+}
+
+.portfolio-project {
+  display: inline-block;
+  margin: 0 25px 0 25px;
+  border: 2px solid black;
+  padding: 25px;
+}
+
+.portfolio-pic img {
   width: 250px;
   height: auto;
-} */
+}
 
+.contact-icon {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+a {
+  color: black;
+}
+
+#email a {
+  color: red;
+}
+
+#linkedin a {
+  color: #0077B5;
+  /* linkedin blue - you can always find these hex colors w/ Google :) */
+}
+
+#twitter a {
+  color: #00aced;
+  /* twitter blue */
+}
