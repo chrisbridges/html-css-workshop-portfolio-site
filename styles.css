@@ -5,6 +5,12 @@ body {
   /* this is using the font from Google that we imported, as well as a fall-back font */
 }
 
+header {
+  background-color: #21ce99;
+  color: white;
+  padding: 25px;
+}
+
 header, section, .portfolio-project {
   margin-bottom: 50px;
 }
