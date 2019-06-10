@@ -1,8 +1,21 @@
+/* 
+  TODO: 
+  feedback from first runthrough of event:
+
+  -Treat the audience like they understand basic HTML / CSS
+    -don't overly explain divs, classes, IDs, etc. Assume they have a basic understanding of the basics
+  -remove importing font from Google. They can be used as filler towards the end.
+  -same with favicon
+  -additional projects at the end if need be
+*/
+
 body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   /* this is using the font from Google that we imported, as well as a fall-back font */
+  /* TODO: let's remove this from the baseline presentation - can pull it in if more time is needed */
+  /* TODO: find a new base font */
 }
 
 header {
