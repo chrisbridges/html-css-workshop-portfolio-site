@@ -1,8 +1,15 @@
-
+/* 
+  TODO:
+  sketch up a super rough outline of what you want your page to look like
+  take a picture of it and share it briefly with the audience
+  -emphasize that it's always important to have a plan before we start a project
+    -never just start coding. It will lead to frustration and cost you time in the end
+*/
 body {
   text-align: center;
   font-family: sans-serif;
   margin: 0;
+  /* bit of a CSS reset, ensuring our pages can take up the width of our page */
 }
 
 header {
@@ -54,4 +61,4 @@ header, section, .portfolio-project {
 #twitter a {
   color: #00aced;
   /* twitter blue */
-} 
+}
